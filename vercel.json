@@ -1,0 +1,45 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, HEAD, OPTIONS"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.wasm",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.glb",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "model/gltf-binary"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.ktx2",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/ktx2"
+        }
+      ]
+    }
+  ]
+}

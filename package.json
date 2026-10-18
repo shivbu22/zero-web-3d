@@ -1,0 +1,18 @@
+{
+  "name": "zero-human-infrastructure-clone",
+  "version": "1.0.0",
+  "description": "Precise clone of Zero — Human Infrastructure to Get Hired (why.zero.university)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "threejs",
+    "webgl",
+    "zero",
+    "interactive-experience"
+  ],
+  "author": "",
+  "license": "ISC"
+}
